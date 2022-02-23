@@ -66,8 +66,8 @@ body{
 }
 .pos
 {
-    display: static;
-    top: 65%;
+    position: absolute;
+    bottom: 0;
     opacity: 0.6;
 }
 .picture
@@ -113,7 +113,7 @@ body{
         margin-top: 2%;
     }
     .pos {
-        top: 88%;
+        bottom: 0;
         opacity: 0.6;
     }
     .foo {
