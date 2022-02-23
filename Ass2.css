@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+header
+{
+    background-color: white;
+}
+body{
+    background-color: #e7e7e7;
+}
+.bars
+{
+    margin-right: 100%;
+    margin-top: 0%;
+}
+.nav-link
+{
+    color: black;
+}
+.chlid-1
+{
+    display: flex;
+    justify-items: center;
+    margin-left: 100px;
+}
+.borders
+{
+    border: 1px solid #e7e7e7;
+    width: 100%;
+}
+.text
+{
+    border: 2px solid #e7e7e7;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    width: 162px;
+    padding: 15px;
+    line-height: 20px;
+}
+.lines
+{
+    border: 2px solid #e7e7e7;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    padding: 15px;
+    width: 100%;
+    line-height: 20px;
+}
+.lines-1
+{
+    border: 2px solid #e7e7e7;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    padding: 15px;
+    line-height: 20px;
+}
+.size
+{
+    width: 50px;
+}
+.pos
+{
+    display: static;
+    top: 65%;
+    opacity: 0.6;
+}
+.picture
+{
+    display: flex;
+    justify-content: center;
+}
+.size-1
+{
+    width: 100%;
+}
+.home {
+    margin-left: 3rem;
+}
+.ana {
+    margin-right: 1rem;
+}
+.sec-4 {
+    margin-left: 1.5rem;
+}
+.flex
+{
+    display: flex;
+}
+.foo {
+    margin-left: 3rem;
+}
+@media screen and (max-width:950px) {
+    .d-flex
+    {
+        flex-direction: column;
+    }
+    .home {
+        margin-left: 0rem;
+    }
+    .ana {
+        margin-right: 0rem;
+    }
+    .sec-4 {
+        margin-left: 0rem;
+    }
+    .mar{
+        margin-top: 2%;
+    }
+    .pos {
+        top: 88%;
+        opacity: 0.6;
+    }
+    .foo {
+        margin-left: 1rem;
+    }
+    .dis
+    {
+        display: none;
+    }
+    .text
+{
+    border: 2px solid #e7e7e7;
+    border-top: 1;
+    border-bottom: 1;
+    border-right: 1;
+    width: 162px;
+    padding: 15px;
+    line-height: 20px;
+}
+.lines
+{
+    border: 2px solid #e7e7e7;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 15px;
+    width: 100%;
+    line-height: 20px;
+}
+}
+
